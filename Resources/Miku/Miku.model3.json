@@ -1,0 +1,23 @@
+{
+	"Version": 3,
+	"FileReferences": {
+		"Moc": "1styear_t05.moc3",
+		"Textures": [
+			"1styear_t05.4096/texture_00.png",
+			"1styear_t05.4096/texture_01.png",
+			"1styear_t05.4096/texture_02.png"
+		]
+	},
+	"Groups": [
+		{
+			"Target": "Parameter",
+			"Name": "EyeBlink",
+			"Ids": []
+		},
+		{
+			"Target": "Parameter",
+			"Name": "LipSync",
+			"Ids": []
+		}
+	]
+}

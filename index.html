@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1" minimum-scale=1>
+    <title>Live2D Player</title>
+    <style>
+        html,
+        body {
+            margin: 0;
+        }
+    </style>
+    <!-- Pollyfill script -->
+    <script src="https://unpkg.com/core-js-bundle@3.6.1/minified.js"></script>
+    <script src="https://cdn.bootcss.com/jquery/2.2.4/jquery.min.js"></script>
+    <!-- Live2DCubismCore script -->
+    <script src="./Core/live2dcubismcore.min.js"></script>
+    <!-- Build script -->
+    <!-- <script src="./dist/bundle.js"></script> -->
+    <!-- <link rel="stylesheet" href="/live2d/css/live2d.css" /> -->
+    <script src="./live2d/js/audiocontext.js"></script>
+</head>
+
+<body>
+    <div id="landlord">
+        <input id="input1" type="number" value="0.5" style="z-index: 10;">
+        <!-- <input id="btn1" type="button" onclick="changes()" style="z-index: 10;" value="更改分辨倍率"> -->
+        <canvas id="live2d" style="position: fixed; right: 0; bottom: 0;z-index: -10;top: 0;left: 0;margin: 0;"
+            height="1080px" width="1920px" class="live2d"></canvas>
+        <!-- <img style="margin:0; height: 100%; width: 100%;" src="/Resources/Miku/1styear_t05.4096/BG_1stAnniversary.png"> -->
+        <!-- <video src="/Resources/movie_001.webm" autoplay loop preload="auto" muted style="position: fixed; right: 0; bottom: 0;min-height: 100%;width: 100%;z-index: -1000;top: 0;left: 0;margin: 0;"></video> -->
+        <!-- <audio id="music" src="/Resources/BGM_TITLE_2021.aac" controls preload="auto" autoplay loop></audio> -->
+    </div>
+
+    <script src="./live2d/js/index.js"></script>
+</body>
+
+</html>
