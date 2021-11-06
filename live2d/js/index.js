@@ -1,5 +1,5 @@
 changes()
-loadAudioFile('./Resources/BGM_TITLE_2021.wav',false);
+loadAudioFile('./Resources/BGM_TITLE_2021.wav',true);
 $("#live2d").fadeTo(0, 0);
 // $("#btn1").fadeTo(0, 0.2);
 $("#input1").fadeTo(0, 0.2);
