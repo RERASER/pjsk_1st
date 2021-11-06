@@ -20,18 +20,19 @@ try {
             source.loopEnd = 4249709/44100;
         }
         source.connect(context.destination);
-        if (isloop == false) {
-            source.start(0,0,1481586/44100);
-        }
-        else{
-            source.start(0,1481586/44100);
-        }
-        source.onended = function () {
-            console.log('ended');
-            // if (context.state == 'closed') {
-            playSound(true)
-            // }
-        };
+        // if (isloop == false) {
+        //     source.start(0,0,1481586/44100);
+        // }
+        // else{
+        //     source.start(0,1481586/44100);
+        // }
+        source.start(0);
+        // source.onended = function () {
+        //     console.log('ended');
+        //     if (context.state == 'closed') {
+        //     playSound(true)
+        //     }
+        // };
     }
 
     function initSound(arrayBuffer, isloop) {
