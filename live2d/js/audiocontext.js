@@ -38,9 +38,9 @@ try {
     function initSound(arrayBuffer, isloop) {
         context.decodeAudioData(arrayBuffer, function (buffer) { //解码成功时的回调函数
             audioBuffer = buffer;
-            if (isloop == false) {
+          //  if (isloop == false) {
                 playSound(isloop);
-            }
+           // }
         }, function (e) { //解码出错时的回调函数
             console.log('Error decoding file', e);
         });
